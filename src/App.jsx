@@ -1,10 +1,12 @@
 import Input from "./Input";
 import Usuario from "./Usuario";
+import userLogo from './assets/user.avif'
 
 function App() {
   return (
     <div class="login-container">
       <form class="login-form">
+        <img src={userLogo} alt="Usuario" />
         <h2>Iniciar sesión</h2>
         <Usuario />
         <div class="input-group">
